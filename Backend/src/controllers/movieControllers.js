@@ -1,6 +1,6 @@
 export function getAllMovies(req, res) {
     //Get all movies from database
-    res.status(200).send("Hello World");
+    res.status(200).send("Fetched all movies successfully");
 }
 
 export function createMovie(req, res) {
@@ -25,7 +25,7 @@ export function submitRating(req, res) {
 
 export function getRecommendations(req, res) {
     //Get recommendations based on a movie title
-    res.status(200).send("Hello World");
+    res.status(200).send("Fetched recommendations successfully");
 }
 
 
