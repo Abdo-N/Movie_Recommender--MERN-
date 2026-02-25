@@ -4,9 +4,8 @@ const movieSchema = new mongoose.Schema(
   {
     title: { type: String, required: true },
     movieId: { type: Number, required: true, unique: true },
-    
   },
-    {timestamps: true}
+    {timestamps: true, collection: "movies"}
 );
 
 

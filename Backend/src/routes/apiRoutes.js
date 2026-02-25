@@ -1,5 +1,4 @@
 import express from "express";
-const router = express.Router();
 import {
 	getAllMovies,
 	createMovie,
@@ -8,6 +7,8 @@ import {
 	submitRating,
 	getRecommendations,
 } from "../controllers/movieControllers.js";
+
+const router = express.Router();
 
 router.get("/movies", getAllMovies);
 
