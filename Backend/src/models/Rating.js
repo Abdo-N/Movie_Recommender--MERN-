@@ -1,7 +1,5 @@
 import mongoose from "mongoose";
 
-const mongoose = require('mongoose');
-
 const ratingSchema = new mongoose.Schema({
   userId:    { type: Number, required: true },
   movieId:   { type: Number, required: true },
